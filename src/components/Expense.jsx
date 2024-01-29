@@ -67,7 +67,7 @@ function Expense({totalExpense}){
             <div className="flex flex-row pt-10 items-center justify-center">
                     <p className="text-center font-mono md:font-bold text-xl text-sky-900">Sum-Up: {total}</p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    {condition<0? <p className="text-center font-mono md:font-bold text-xl text-sky-900"> You are going BROKE, {totalExpense-total}</p> : <p className="text-center font-mono md:font-bold text-xl text-sky-900">Remaining Amount: {totalExpense-total}</p>}
+                    {condition<0? <p className="text-center font-mono md:font-bold text-xl text-sky-900"> You are going BROKE! {totalExpense-total}</p> : <p className="text-center font-mono md:font-bold text-xl text-sky-900">Remaining Amount: {totalExpense-total}</p>}
                    
             </div>
             <br /><br /><br /><br /><br />
